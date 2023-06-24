@@ -1,6 +1,5 @@
 import Accordion from 'react-bootstrap/Accordion';
 import myImage from './images/bev.JPG';
-import Image from 'react-bootstrap/Image';
 import './css/App.css'
 
 function Tabs() {
@@ -29,25 +28,29 @@ function Tabs() {
       <Accordion.Item eventKey="2">
         <Accordion.Header>My Services</Accordion.Header>
         <Accordion.Body>
-        One on One virtual coaching via phone or video for residents of WA State.
-        <ul>
-        <li>FREE Consultation to determine if this is the right fit for you. Email wellnesscoachingpnw@gmail.com to set up.</li>
-        <li>Over the course of 12 weeks we will meet 8 times after our initial free consultation.</li>
-        <li>Between sessions I will provide support and encouragement through messaging and am available for your needs.</li>
-        <li>Coaching will be comprehensive as complete wellness addresses all areas of your health including nutrition, activity, sleep, mental/emotional health, social, and more. </li>
-        </ul>
+        <h1>One on One virtual coaching via phone or video for residents of WA State.</h1>
+        <div className="service-list">
+          <ul>
+            <li>FREE Consultation to determine if this is the right fit for you. Email wellnesscoachingpnw@gmail.com to set up.</li>
+            <li>Over the course of 12 weeks we will meet 8 times after our initial free consultation.</li>
+            <li>Between sessions I will provide support and encouragement through messaging and am available for your needs.</li>
+            <li>Coaching will be comprehensive as complete wellness addresses all areas of your health including nutrition, activity, sleep, mental/emotional health, social, and more. </li>
+          </ul>
+        </div>
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="3">
         <Accordion.Header>My Approach</Accordion.Header>
         <Accordion.Body>
-        I am not here to sell anything or offer quick fixes. This approach is about making sustainable changes in habits that are client driven that have positive downstream effects on your health as a whole. Some areas of focus can include:
-        <ul>
-        <li>Plant focused diet that is low in saturated fat, high in fiber, and low in processed food to support optimal health. The breakdown of this will look different for each individual.</li>
-        <li>Movement is extremely important for overall health. Finding movement that you can enjoy and can stick to is of most importance.</li>
-        <li>Adequate sleep is essential for your body to perform at its best.</li>
-        <li>Your relationship with yourself, food, family/friends, etc. All have a huge impact on your health.</li>
-        </ul>
+        <h1>I am not here to sell anything or offer quick fixes. This approach is about making sustainable changes in habits that are client driven that have positive downstream effects on your health as a whole. Some areas of focus can include:</h1>
+        <div className="service-list">
+          <ul>
+            <li>Plant focused diet that is low in saturated fat, high in fiber, and low in processed food to support optimal health. The breakdown of this will look different for each individual.</li>
+            <li>Movement is extremely important for overall health. Finding movement that you can enjoy and can stick to is of most importance.</li>
+            <li>Adequate sleep is essential for your body to perform at its best.</li>
+            <li>Your relationship with yourself, food, family/friends, etc. All have a huge impact on your health.</li>
+          </ul>
+        </div>
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
