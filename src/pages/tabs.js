@@ -1,12 +1,13 @@
 import Accordion from 'react-bootstrap/Accordion';
+import Reviews from './Reviews';
 import myImage from './images/bev.JPG';
-import './css/App.css'
+import './css/App.css';
 
 function Tabs() {
   return (
     <div style={{ width: '100%' }}>
-    <Accordion >
-      <Accordion.Item eventKey="0">
+    <Accordion className="custom-accordion">
+      <Accordion.Item eventKey="0" flush>
         <Accordion.Header>What is a Nurse Coach?</Accordion.Header>
         <Accordion.Body>
         A Nurse Coach is a Nurse with specialized training in health and wellness coaching to be able to support clients and communities. We walk alongside our clients to empower, listen, and help our clients see their full potential, so they can believe in themselves to create the habits necessary to reach their goals and live a lifestyle that promotes health and wellness.
@@ -17,7 +18,7 @@ function Tabs() {
         <Accordion.Body>
         <div className='about-container'>
             <div className='about-image'>
-                <img src={myImage} alt="Profile" style={{ borderRadius: '50%' }}height="500" />
+                <img src={myImage} alt="Profile" style={{ borderRadius: '50%', border: 'solid'}}height="500" />
             </div>
             <div className='about-text'>
                 My Name is Beverly. I have been a Registered Nurse for 9 years. Professionally, I have worked in the hospital, diabetes education, and outpatient procedures. My passion is health & wellness. When I became a nurse, I realized how important taking care of yourself is. While seeing so many patients dealing with complications from chronic conditions related to diseases of lifestyle, it sparked a passion in me to learn what could prevent, halt, or even reverse chronic conditions so I personally could live a life with a long healthspan and be able to enjoy life to the fullest. Now I want to support others, and that is why I created Wellness Coaching PNW so I can walk alongside you on your journey to wellness.
@@ -50,6 +51,15 @@ function Tabs() {
             <li>Adequate sleep is essential for your body to perform at its best.</li>
             <li>Your relationship with yourself, food, family/friends, etc. All have a huge impact on your health.</li>
           </ul>
+        </div>
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="4">
+        <Accordion.Header>Testimonials</Accordion.Header>
+        <Accordion.Body>
+        <h1>Parts of testimonials from prior clients. Each experience is different and individualized but all powerful in their own way. </h1>
+        <div className="service-list">
+          <Reviews/>
         </div>
         </Accordion.Body>
       </Accordion.Item>

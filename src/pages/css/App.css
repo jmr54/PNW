@@ -2,4 +2,31 @@
     text-align: left;
     padding-left: 20px; /* Optional: Add some left padding for indentation */
   }
-  
+.custom-accordion .accordion-item {
+    background-color: #EEE2DC; /* Replace with your desired background color */
+    color: #646D74;
+  }
+
+  .custom-accordion .accordion-button{
+    background-color: #BAB2B5;
+    font-weight: bold;
+    color: #646D74;
+}
+
+.card-body{
+  background-color: #EEE2DC; /* Replace with your desired background color */
+  color: #646D74;
+}
+
+.reviews-container .card-text{
+  color: #646D74;
+}
+
+.reviews-container .card {
+  border: 2px solid black; /* Adjust the border thickness as needed */
+}
+
+.reviews-container {
+  display: grid;
+  grid-gap: 20px; /* Adjust the value as per your desired spacing */
+}
