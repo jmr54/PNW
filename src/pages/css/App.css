@@ -30,3 +30,36 @@
   display: grid;
   grid-gap: 20px; /* Adjust the value as per your desired spacing */
 }
+
+.name-row{
+  color: #646D74;
+}
+
+.btn.btn-primary {
+  margin-top: 10px;
+  margin-right: 10px; /* Adds 10 pixels of right margin */
+  padding: 5px 10px; /* Adds 5 pixels of padding on the top and bottom, and 10 pixels on the left and right */
+  background-color: #646D74;
+}
+
+/*
+.foot-background{
+  background-image: url("https://images.unsplash.com/photo-1453950357290-38ae7a99541f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2062&q=80");
+  background-size: 100% 100%;
+}
+
+
+.text-center p-3{
+  background-color: #646D74;
+}
+*/
+.email-container {
+  /* From https://css.glass */
+ background: rgba(255, 255, 255, 0.44);
+ border-radius: 16px;
+ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+ backdrop-filter: blur(7.7px);
+ -webkit-backdrop-filter: blur(7.7px);
+ border: 1px solid rgba(255, 255, 255, 1);
+ padding: 20px;
+}

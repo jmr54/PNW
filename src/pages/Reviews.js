@@ -17,7 +17,7 @@ function Reviews() {
     </Card>
     <Card>
       <Card.Body>
-        <Card.Title style={{fontSize : '1.5em'}}>Client 2:</Card.Title>
+        <Card.Title style={{fontSize : '1.5em', color: '#646D74'}}>Client 2:</Card.Title>
         <Card.Text>
             <p>
             “When I started working with Beverly I was at a very low point in my motivation to sustain a healthy lifestyle.  I was lazy with my nutrition and my physical fitness which was starting to have an impact on my overall mental wellbeing.  I knew the tools were available to me but I had no direction or confidence on where to even begin… 
@@ -28,7 +28,7 @@ function Reviews() {
     </Card>
     <Card>
       <Card.Body>
-        <Card.Title style={{fontSize : '1.5em'}}>Client 3:</Card.Title>
+        <Card.Title style={{fontSize : '1.5em', color: '#646D74'}}>Client 3:</Card.Title>
         <Card.Text>
             <p>
             “Having a coach helped me stay focused on my goals where I began to feel physically better by eating differently and exercising. This in turn made me want to make more consistent efforts toward my personal goals.”
@@ -38,7 +38,7 @@ function Reviews() {
     </Card>
     <Card>
       <Card.Body>
-        <Card.Title style={{fontSize : '1.5em'}}>Client 4:</Card.Title>
+        <Card.Title style={{fontSize : '1.5em', color: '#646D74'}}>Client 4:</Card.Title>
         <Card.Text>
             <p>
             “Prior to starting my coaching session, I was not working out and had a lot of stress in my life with work. My coach asked me some hard questions that made me really take a step back and take a look at my life and what I was putting all of my energy into. Through this process, I set goals for myself and reprioritized what is really important, and that is me. It was a challenge for me to change my thinking because I have operated this way for so long; I have to remind myself that no one is going to show up for me but me! When the old self creeps in, I hear my coach encouraging me to make the choice of me.”

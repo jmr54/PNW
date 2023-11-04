@@ -43,7 +43,8 @@ function Tabs() {
       <Accordion.Item eventKey="3">
         <Accordion.Header>My Approach</Accordion.Header>
         <Accordion.Body>
-        <h1>I am not here to sell anything or offer quick fixes. This approach is about making sustainable changes in habits that are client driven that have positive downstream effects on your health as a whole. Some areas of focus can include:</h1>
+        <h1>I am not here to sell anything or offer quick fixes.</h1>
+        <h3>This approach is about making sustainable changes in habits that are client driven that have positive downstream effects on your health as a whole. Some areas of focus can include:</h3>
         <div className="service-list">
           <ul>
             <li>Plant focused diet that is low in saturated fat, high in fiber, and low in processed food to support optimal health. The breakdown of this will look different for each individual.</li>
@@ -61,6 +62,17 @@ function Tabs() {
         <div className="service-list">
           <Reviews/>
         </div>
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="5">
+        <Accordion.Header>Contact Me</Accordion.Header>
+        <Accordion.Body>
+          <p style={{textAlign : 'left'}}>
+            If you are interested in a free consultation or have more questions email me at <a href="mailto:wellnesscoachingpnw@gmail.com">wellnesscoachingpnw@gmail.com</a>.
+          </p>
+          <p style={{textAlign : 'left'}}>
+          Follow me on my social media. Facebook and Instagram
+          </p>
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
